@@ -1,41 +1,31 @@
-# ScrapeFun Desktop for Windows
+# ScrapeFun Server for Windows
 
-这个仓库只用于发布 ScrapeFun Windows 桌面版安装包。
+> 最后更新：2026 年 7 月 26 日
 
-这里不存放 ScrapeFun 的源代码，也不作为开发仓库使用。请从本仓库的
-[Releases](https://github.com/HaoweiLi97/scrapefun-desktop-windows/releases)
-页面下载安装包。
+ScrapeFun Server for Windows 将服务端和系统托盘宿主整合为一个安装程序，适合直接在 Windows 电脑上运行媒体库服务。
 
 ## 下载
 
-在 Releases 页面下载最新的：
+从 [Releases](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest) 下载最新的 `x64-setup.exe`，双击完成安装。
 
-```text
-ScrapeFun-setup.exe
-```
+## 首次启动
 
-下载后双击安装即可。
+安装后 ScrapeFun 会在系统托盘运行。双击托盘图标可用默认浏览器打开管理界面。
 
-## Windows 桌面版说明
+首次启动生成的初始密码会写入日志。右键托盘图标并选择 `Show Logs Directory`，即可打开日志目录查看。
 
-- 安装后会在系统托盘运行 ScrapeFun 服务。
-- 双击右下角托盘图标会用默认浏览器打开 ScrapeFun 网页端。
-- 不内嵌桌面 WebView，不需要单独打开桌面 client。
-- 支持开机启动、局域网访问、查看数据目录和日志目录。
+## 托盘菜单
 
-## 初始密码
+托盘菜单可用于：
 
-首次启动后，初始密码会写在日志里。
+- 打开 ScrapeFun
+- 重启服务
+- 查看数据目录和日志目录
+- 设置开机启动
+- 开启或关闭局域网访问
+- 检查 stable 或 beta 更新
 
-可以右键右下角托盘图标，选择 `Show Logs Directory` 打开日志目录，然后查看日志文件中的初始密码提示。
-
-日志目录默认位于：
-
-```text
-%APPDATA%\ScrapeFunDesktop\logs
-```
-
-## 数据位置
+## 数据与日志
 
 运行数据默认保存在：
 
@@ -43,18 +33,14 @@ ScrapeFun-setup.exe
 %APPDATA%\ScrapeFunDesktop
 ```
 
-卸载程序不会自动删除用户数据。如需完全清空，请手动删除上面的目录。
+日志位于其中的 `logs` 子目录。卸载应用不会自动删除用户数据；重新安装后仍可继续使用原有数据。
 
-## Release 仓库用途
+## 应用内更新
 
-这个仓库仅用于：
+新版使用 Velopack 管理 stable 和 beta 更新。旧版 Inno 安装用户需要先退出并卸载旧宿主，再手动安装一次新版 setup；之后即可使用应用内更新。
 
-- 发布 Windows 安装包
-- 维护安装包下载说明
-- 记录面向用户的版本发布信息
+## 相关链接
 
-不用于：
-
-- 存放源代码
-- 提交 issue 级别的开发讨论
-- 作为构建源码仓库
+- [ScrapeFun 使用与 Docker 文档](https://github.com/HaoweiLi97/ScrapeFun)
+- [macOS Server](https://github.com/HaoweiLi97/scrapefun-server-macos)
+- [产品网站](https://mightly.store/)
