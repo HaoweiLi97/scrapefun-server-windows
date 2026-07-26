@@ -43,4 +43,4 @@ ScrapeFun Server for Windows 将服务端和系统托盘宿主整合为一个安
 
 - [ScrapeFun 使用与 Docker 文档](https://github.com/HaoweiLi97/ScrapeFun)
 - [macOS Server](https://github.com/HaoweiLi97/scrapefun-server-macos)
-- [产品网站](https://mightly.store/)
+- [产品网站](https://scrapefun.com/)
