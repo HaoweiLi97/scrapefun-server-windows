@@ -1,5 +1,7 @@
 # 支持与反馈
 
+**简体中文** · [English](./SUPPORT.en.md)
+
 > 文档更新：2026-09-28
 
 使用问题、故障报告及功能建议请统一提交到[ScrapeFun 主仓库 Issues](https://github.com/HaoweiLi97/ScrapeFun/issues)。提交时注明本平台、Client / Server 版本、完整安装包文件名和复现步骤。
