@@ -4,7 +4,7 @@
 
 [产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-server-windows/releases) · [在线文档](https://scrapefun.com/#/docs)
 
-> 文档更新：2026-09-28。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-10-29。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Windows 系统托盘宿主，内置 ScrapeFun Server，通过默认浏览器提供管理界面。用于管理影视、漫画与 WebDAV / AList 远程媒体库，也可供局域网中的 Client 连接。
 
@@ -12,12 +12,14 @@ Windows 系统托盘宿主，内置 ScrapeFun Server，通过默认浏览器提�
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.3.3](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.3.3) |
+| 版本 | [0.4.3](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.4.3) |
 | 架构 | x64 |
-| 首次安装 | `ScrapeFunServer-stable-Setup.exe` |
-| 更新资产 | `releases.stable.json`、`ScrapeFunServer-0.3.3-stable-full.nupkg` |
+| 首次安装 | `ScrapeFun-windows-amd64-v0.4.3-setup.exe` |
+| 更新资产 | `releases.stable.json`、`ScrapeFunServer-0.4.3-stable-full.nupkg` |
 
 从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest)下载 setup。首次安装不要选择 nupkg；系统要求和发布者签名状态以具体安装包及 Release 为准。
+
+GitHub EXE 安装包未签名，Windows 可能显示未知发布者提示，请用发行页 SHA256SUMS 核对下载。Microsoft Store 继续作为独立[安装渠道](https://apps.microsoft.com/detail/9N83B6RSWG01)，切换渠道前请备份数据。
 
 ## 安装与首次启动
 
