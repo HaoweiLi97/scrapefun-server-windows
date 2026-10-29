@@ -4,7 +4,7 @@
 
 [Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-server-windows/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
 
-> Updated: 2026-09-28. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-10-29. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 A Windows system-tray host with the ScrapeFun Server runtime and a management interface in your default browser. Manage movie, TV, comic, and remote WebDAV / AList libraries, and let Clients on your LAN connect.
 
@@ -12,12 +12,14 @@ A Windows system-tray host with the ScrapeFun Server runtime and a management in
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.3.3](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.3.3) |
+| Version | [0.4.3](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.4.3) |
 | Architecture | x64 |
-| First installation | `ScrapeFunServer-stable-Setup.exe` |
-| Update assets | `releases.stable.json`, `ScrapeFunServer-0.3.3-stable-full.nupkg` |
+| First installation | `ScrapeFun-windows-amd64-v0.4.3-setup.exe` |
+| Update assets | `releases.stable.json`, `ScrapeFunServer-0.4.3-stable-full.nupkg` |
 
 Download setup from the [stable download page](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest). Do not use nupkg for a first installation. System requirements and publisher signing status follow the actual installer and release information.
+
+GitHub EXE installers are unsigned; Windows may show an unknown publisher warning. Verify downloads against the release SHA256SUMS. Microsoft Store remains available as a separate [installation channel](https://apps.microsoft.com/detail/9N83B6RSWG01); back up data before switching channels.
 
 ## Installation and first launch
 
