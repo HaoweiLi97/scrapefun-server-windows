@@ -15,10 +15,10 @@ GitHub 下载提供 EXE 安装包；Microsoft Store 分发 MSIX 包。0.5.0 正�
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.5.0](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.0) |
+| 版本 | [0.5.2](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.2) |
 | 架构 | x64 |
-| 首次安装 | `ScrapeFun-windows-amd64-v0.5.0-setup.exe` |
-| 更新资产 | `releases.stable.json`、`ScrapeFunServer-0.5.0-stable-full.nupkg` |
+| 首次安装 | `ScrapeFun-windows-amd64-v0.5.2-setup.exe` |
+| 更新资产 | `releases.stable.json`、`ScrapeFunServer-0.5.2-stable-full.nupkg` |
 
 从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest)下载 setup。首次安装不要选择 nupkg；系统要求和发布者签名状态以具体安装包及 Release 为准。
 

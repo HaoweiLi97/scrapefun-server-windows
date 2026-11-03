@@ -15,10 +15,10 @@ GitHub downloads are EXE installers. Microsoft Store distributes MSIX packages; 
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.5.0](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.0) |
+| Version | [0.5.2](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.2) |
 | Architecture | x64 |
-| First installation | `ScrapeFun-windows-amd64-v0.5.0-setup.exe` |
-| Update assets | `releases.stable.json`, `ScrapeFunServer-0.5.0-stable-full.nupkg` |
+| First installation | `ScrapeFun-windows-amd64-v0.5.2-setup.exe` |
+| Update assets | `releases.stable.json`, `ScrapeFunServer-0.5.2-stable-full.nupkg` |
 
 Download setup from the [stable download page](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest). Do not use nupkg for a first installation. System requirements and publisher signing status follow the actual installer and release information.
 
