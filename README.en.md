@@ -1,14 +1,15 @@
-# ScrapeFun Server for Windows
+<div align="center">
+  <img src="./docs/images/server-icon.png" alt="ScrapeFun Server" width="80" />
+  <h1>ScrapeFun Server for Windows</h1>
+  <p><a href="./README.md">简体中文</a> · <strong>English</strong></p>
+  <p><a href="https://scrapefun.com/?lang=en">Website</a> · <a href="https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest">Download</a> · <a href="https://github.com/HaoweiLi97/scrapefun-server-windows/releases">All releases</a> · <a href="https://scrapefun.com/?lang=en#/docs">Documentation</a></p>
+</div>
 
-[简体中文](./README.md) · **English**
-
-[Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-server-windows/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
-
-> Updated: 2026-11-01. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-11-03. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 A Windows system-tray host with the ScrapeFun Server runtime and a management interface in your default browser. Manage movie, TV, comic, and remote WebDAV / AList libraries, and let Clients on your LAN connect.
 
-GitHub downloads are EXE installers. Microsoft Store distributes MSIX packages; version 0.5.0 has been submitted through the Store CLI and becomes available after certification. Keep your existing installation channel and back up data before migration.
+GitHub downloads are EXE installers. Microsoft Store distributes MSIX packages; version 0.5.0 is awaiting Microsoft Store certification and will be available after approval. Keep your existing installation channel and back up data before migration.
 
 ## Downloads and environment
 
@@ -50,9 +51,12 @@ Velopack currently manages stable / beta updates. Check for updates in the web s
 
 For an older Inno Setup installation, exit and uninstall the old host, then run Velopack setup once. Retain `%APPDATA%\ScrapeFunDesktop` and check login, libraries, and data after migration. You can then use in-app updates.
 
-## Troubleshooting
+<details>
+<summary>Troubleshooting</summary>
 
 If the service cannot be opened, check processes, port conflicts, the log directory accessible from the tray, and the firewall. Reports should include Windows version, Server version, installation method, and logs with sensitive details removed.
+
+</details>
 
 ## Support and licensing
 

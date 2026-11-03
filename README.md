@@ -1,14 +1,15 @@
-# ScrapeFun Server for Windows
+<div align="center">
+  <img src="./docs/images/server-icon.png" alt="ScrapeFun Server" width="80" />
+  <h1>ScrapeFun Server for Windows</h1>
+  <p><strong>简体中文</strong> · <a href="./README.en.md">English</a></p>
+  <p><a href="https://scrapefun.com/">官网</a> · <a href="https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest">下载安装</a> · <a href="https://github.com/HaoweiLi97/scrapefun-server-windows/releases">全部发行</a> · <a href="https://scrapefun.com/#/docs">使用文档</a></p>
+</div>
 
-**简体中文** · [English](./README.en.md)
-
-[产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-server-windows/releases) · [在线文档](https://scrapefun.com/#/docs)
-
-> 文档更新：2026-11-01。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-11-03。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Windows 系统托盘宿主，内置 ScrapeFun Server，通过默认浏览器提供管理界面。用于管理影视、漫画与 WebDAV / AList 远程媒体库，也可供局域网中的 Client 连接。
 
-GitHub 下载提供 EXE 安装包；Microsoft Store 分发 MSIX 包。0.5.0 已通过商店 CLI 提交，审核完成后由商店推送。请沿用原安装渠道，迁移前先备份数据。
+GitHub 下载提供 EXE 安装包；Microsoft Store 分发 MSIX 包。0.5.0 正在等待 Microsoft Store 审核，通过后由商店提供更新。请沿用原安装渠道，迁移前先备份数据。
 
 ## 下载与系统环境
 
@@ -50,9 +51,12 @@ GitHub EXE 安装包未签名，Windows 可能显示未知发布者提示，请�
 
 旧 Inno Setup 安装需要先退出并卸载旧宿主，再运行一次 Velopack setup。保留 `%APPDATA%\ScrapeFunDesktop`，迁移后检查登录、媒体库和数据；之后可使用应用内更新。
 
-## 故障排查
+<details>
+<summary>故障排查</summary>
 
 服务打不开时检查进程、端口占用、托盘中的日志目录和防火墙。反馈时提供 Windows 版本、Server 版本、安装方式及脱敏日志。
+
+</details>
 
 ## 支持与授权
 
