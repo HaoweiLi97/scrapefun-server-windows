@@ -9,20 +9,20 @@
 
 A Windows system-tray host with the ScrapeFun Server runtime and a management interface in your default browser. Manage movie, TV, comic, and remote WebDAV / AList libraries, and let Clients on your LAN connect.
 
-GitHub downloads are EXE installers. Microsoft Store distributes MSIX packages; version 0.5.0 is awaiting Microsoft Store certification and will be available after approval. Keep your existing installation channel and back up data before migration.
+GitHub downloads are EXE installers. Microsoft Store distributes MSIX packages; check the Store listing for its available version. Keep your existing installation channel and back up data before migration.
 
 ## Downloads and environment
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.5.2](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.2) |
+| Version | [0.5.9](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.9) |
 | Architecture | x64 |
-| First installation | `ScrapeFun-windows-amd64-v0.5.2-setup.exe` |
-| Update assets | `releases.stable.json`, `ScrapeFunServer-0.5.2-stable-full.nupkg` |
+| First installation | `ScrapeFun-windows-amd64-v0.5.9-setup.exe` |
+| Update assets | `releases.stable.json`, `ScrapeFunServer-0.5.9-stable-full.nupkg` |
 
 Download setup from the [stable download page](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest). Do not use nupkg for a first installation. System requirements and publisher signing status follow the actual installer and release information.
 
-GitHub EXE installers are unsigned; Windows may show an unknown publisher warning. Verify downloads against the release SHA256SUMS. Microsoft Store remains available as a separate [installation channel](https://apps.microsoft.com/detail/9N83B6RSWG01); back up data before switching channels.
+GitHub EXE installers are unsigned; Windows may trigger Microsoft Defender SmartScreen or show an unknown-publisher warning. Verify downloads against the release SHA256SUMS. Microsoft Store remains available as a separate [installation channel](https://apps.microsoft.com/detail/9N83B6RSWG01); back up data before switching channels.
 
 ## Installation and first launch
 

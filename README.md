@@ -9,20 +9,20 @@
 
 Windows 系统托盘宿主，内置 ScrapeFun Server，通过默认浏览器提供管理界面。用于管理影视、漫画与 WebDAV / AList 远程媒体库，也可供局域网中的 Client 连接。
 
-GitHub 下载提供 EXE 安装包；Microsoft Store 分发 MSIX 包。0.5.0 正在等待 Microsoft Store 审核，通过后由商店提供更新。请沿用原安装渠道，迁移前先备份数据。
+GitHub 下载提供 EXE 安装包；Microsoft Store 分发 MSIX 包。商店提供的版本以 Microsoft Store 页面为准。请沿用原安装渠道，迁移前先备份数据。
 
 ## 下载与系统环境
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.5.2](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.2) |
+| 版本 | [0.5.9](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/tag/v0.5.9) |
 | 架构 | x64 |
-| 首次安装 | `ScrapeFun-windows-amd64-v0.5.2-setup.exe` |
-| 更新资产 | `releases.stable.json`、`ScrapeFunServer-0.5.2-stable-full.nupkg` |
+| 首次安装 | `ScrapeFun-windows-amd64-v0.5.9-setup.exe` |
+| 更新资产 | `releases.stable.json`、`ScrapeFunServer-0.5.9-stable-full.nupkg` |
 
 从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-server-windows/releases/latest)下载 setup。首次安装不要选择 nupkg；系统要求和发布者签名状态以具体安装包及 Release 为准。
 
-GitHub EXE 安装包未签名，Windows 可能显示未知发布者提示，请用发行页 SHA256SUMS 核对下载。Microsoft Store 继续作为独立[安装渠道](https://apps.microsoft.com/detail/9N83B6RSWG01)，切换渠道前请备份数据。
+GitHub EXE 安装包未签名，Windows 可能显示 Microsoft Defender SmartScreen 或未知发布者提示，请用发行页 SHA256SUMS 核对下载。Microsoft Store 继续作为独立[安装渠道](https://apps.microsoft.com/detail/9N83B6RSWG01)，切换渠道前请备份数据。
 
 ## 安装与首次启动
 
